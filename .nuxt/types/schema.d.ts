@@ -11,8 +11,10 @@ declare module '@nuxt/schema' {
 
         cdnURL: string,
     },
+
+    apiSecret: string,
   }
   interface PublicRuntimeConfig {
-  
+     apiBase: string,
   }
 }

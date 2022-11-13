@@ -3,6 +3,6 @@ import { defuFn } from '/Users/loic/Sides/hubhouseinc/nuxt-app/node_modules/defu
 
 const inlineConfig = {}
 
+import cfg0 from "/Users/loic/Sides/hubhouseinc/nuxt-app/app.config.ts"
 
-
-export default defuFn(inlineConfig)
+export default defuFn(cfg0, inlineConfig)
